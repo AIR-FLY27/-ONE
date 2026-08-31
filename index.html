@@ -1,17 +1,56 @@
+
 <!DOCTYPE html>
 <html lang="es">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>AIR-FLY27 - ONE</title>
+<title>AIR-FLY27 | Termux Lab</title>
 <style>
-body { font-family: sans-serif; text-align: center; padding-top: 50px; background: #0a0a0a; color: white; }
-h1 { color: #00ffcc; font-size: 50px; }
+body{margin:0;font-family:sans-serif;background:#0a0a14;color:white;text-align:center}
+header{padding:40px;background:linear-gradient(90deg,#00f2ff,#0066ff)}
+h1{font-size:3em;margin:0;text-shadow:0 0 15px #00f2ff}
+.card{background:#151528;margin:20px;padding:20px;border-radius:15px;border-left:4px solid #00f2ff;text-align:left}
+code{background:black;padding:3px 8px;border-radius:5px;color:#00ff88}
+a{color:#00f2ff;text-decoration:none}
+.btn{display:inline-block;padding:12px 25px;background:#00f2ff;color:black;border-radius:25px;font-weight:bold;margin:10px}
 </style>
 </head>
 <body>
+<header>
 <h1>AIR-FLY27</h1>
-<h2>Mi primera página oficial</h2>
-<p>¡Hecho desde Cali, Colombia!</p>
+<p>LaProyectos con Termux</p>
+<p> usa & kameroon </p>
+<a class="btn" href="https://github.com/AIR-FLY27">Mi GitHub</a>
+</header>
+
+<div class="card">
+<h2>🚀 ¿Qué es este proyecto?</h2>
+<p>Esta página documenta cómo creo webs, apps y scripts usando solo <b>Termux</b> en Android.</p>
+</div>
+
+<div class="card">
+<h2>🛠️ Funciones de Termux que uso</h2>
+<ul>
+<li><code>pkg install python nodejs git</code> - Instalar lenguajes</li>
+<li><code>termux-setup-storage</code> - Acceder a archivos del cel</li>
+<li><code>termux-api</code> - Usar cámara, GPS, SMS desde código</li>
+<li><code>sshd + git + GitHub Pages</code> - Subir proyectos sin PC</li>
+<li><code>python -m http.server 8000</code> - Probar webs local</li>
+</ul>
+</div>
+
+<div class="card">
+<h2>📁 Mis Proyectos</h2>
+<p><b>1. Proyecto UNO:</b> Mi primera web oficial (esta).</p>
+<p><b>2. Próximo:</b> Bot de WhatsApp con Python en Termux</p>
+<p><b>3. Próximo:</b> Servidor web con Node.js</p>
+</div>
+
+<div class="card">
+<h2>📲 Contacto</h2>
+<p>¿Quieres aprender Termux? Escríbeme por GitHub.</p>
+<p><code>air-fly27.github.io/-ONE/</code></p>
+</div>
+
 </body>
 </html>
